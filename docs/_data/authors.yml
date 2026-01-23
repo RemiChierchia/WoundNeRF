@@ -1,0 +1,71 @@
+REMI:
+  name: "Remi Chierchia"
+  avatar: "/assets/images/bio-remi.jpg"
+  location: "QUT & CSIRO"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto: remi.chierchia@hdr.qut.edu.au"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: https://remichierchia.github.io/
+
+Leo:
+  name             : "Leo Lebrat"
+  avatar           : "/assets/images/bio-leo.jpg" 
+  location         : "CSIRO & QUT"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:leo.lebrat@csiro.au"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.lebrat.org/"
+
+Rodrigo:
+  name             : "Rodrigo Santa Cruz"
+  avatar           : "/assets/images/bio-rodrigo.jpg" 
+  location         : "CSIRO & QUT"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rodrigo.santacruz@csiro.au"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://rfsantacruz.com"
+
+Clinton:
+  name             : "Clinton Fookes"
+  avatar           : "/assets/images/bio-clinton.jpg"
+  location         : "QUT"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:c.fookes@qut.edu.au"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://staff.qut.edu.au/staff/c.fookes"    
+
+Olivier:
+  name             : "Olivier Salvado"
+  avatar           : "/assets/images/bio-olivier.jpg"
+  location         : "QUT"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:olivier.salvado@qut.edu.au"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://staff.qut.edu.au/staff/olivier.salvado"  
+
+David:
+  name             : "David Ahmedt-Aristizabal"
+  avatar           : "/assets/images/bio-david.jpeg"
+  location         : "CSIRO & QUT"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:david.ahmedtaristizabal@data61.csiro.au"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://people.csiro.au/a/d/david-ahmedtaristizabal"

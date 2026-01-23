@@ -1,0 +1,14 @@
+CSIRO:
+  name             : "The Commonwealth Scientific and Industrial Research Organisation (CSIRO)"
+  avatar           : "/assets/images/CSIRO_Logo.png" 
+  home             : https://www.csiro.au
+
+QUT:
+  name             : "Queensland University of Technology (QUT)"
+  avatar           : "/assets/images/QUT_Logo.png" 
+  home             : https://www.qut.edu.au/
+
+# USYD:
+#   name             : "The University Of Sydney"
+#   avatar           : "/assets/images/Usyd_Logo.png"
+#   home             : https://www.sydney.edu.au/
