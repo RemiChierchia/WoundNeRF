@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-AU"
-title                    : "WoundNeRF"
+title                    : "WoundNeRF: Multi-View Consistent Wound Segmentation With Neural Fields"
 title_separator          : "-"
 subtitle                 : "A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos"
 name                     : "Remi Chierchia, Leo Lebrat and Rodrigo Santa Cruz"

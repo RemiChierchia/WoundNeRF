@@ -22,7 +22,9 @@
       <a href="{{ img.url | relative_url }}"
         {% if img.title %}title="{{ img.title }}"{% endif %}>
           <img src="{{ img.image_path | relative_url }}"
-               alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+               alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+               {% if include.width %}style="max-width: {{ include.width }}; height: auto; 
+               display: block; margin-left: auto; margin-right: auto;"{% endif %}>
       </a>
     {% else %}
       <img src="{{ img.image_path | relative_url }}"

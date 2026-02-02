@@ -2,103 +2,154 @@
 layout: single
 author_profile: True
 classes: wide
-excerpt: "Multi-View Consistent Wound Segmentation With Neural Fields<br/>ISBI 2026"
+excerpt: "ISBI 2026"
 header:
-  overlay_image: #/assets/images/main.png
+  overlay_image: /assets/images/data_augmentation.png
   overlay_filter: 0.5
-  caption: #"Qualitative evaluation of six 3D surface reconstruction methods using our SALVE dataset."
+  caption: "Qualitative comparison 2D predictions vs. our method trained with few views"
   actions:
-    - label: "Paper"
-      url: #
-    - label: "Code will be released soon."
-    #   url: "https://github.com/lebrat/Syn3DWound"
+    - label: "📄 Paper (arXiv)"
+      url: "https://arxiv.org/abs/2601.16487"
+    - label: "💻 Code — coming soon"
+    
 gallery_2v3d:
-  - url: /assets/images/2v3d_poster.png
-    image_path: /assets/images/2v3d_poster.png
-    alt: "Area measurement multi-view inconsistent if rely only on 2D."
-    title: "Area measurement multi-view inconsistent if rely only on 2D."
-gallery_acquisition:
-  - url: /assets/images/acquisition_setup.png
-    image_path: /assets/images/acquisition_setup.png
+  - url: /assets/images/2d_3d.png
+    image_path: /assets/images/2d_3d.png
+    alt: "View inconsistency from mapping 2D expert-annotated masks from different viewpoints onto the underlying 3D surface. Overlapping regions are highlighted in magenta, while non-overlapping regions indicate disagreement."
+    title: "View inconsistency from mapping 2D expert-annotated masks from different viewpoints onto the underlying 3D surface. Overlapping regions are highlighted in magenta, while non-overlapping regions indicate disagreement."
+gallery_method:
+  - url: /assets/images/isbi26.png
+    image_path: /assets/images/isbi26.png
+gallery_qualitative1:
+  - url: /assets/images/qualitative1.png
+    image_path: /assets/images/qualitative1.png
 gallery_accuracy:
   - url: /assets/images/accuracy.png
     image_path: /assets/images/accuracy.png
-gallery_qualitative1:
-  - url: /assets/images/qualitative_iphone_sd_small_2.png
-    image_path: /assets/images/qualitative_iphone_sd_small_2.png
+gallery_robustness:
+  - url: /assets/images/robustness.png
+    image_path: /assets/images/robustness.png
 gallery_qualitative2:
-  - url: /assets/images/qualitative_logitech_pis3_small_2.png
-    image_path: /assets/images/qualitative_logitech_pis3_small_2.png
-# gallery_pipepline:
-#   - url: /assets/images/explaination_pipeline.png
-#     image_path: /assets/images/explaination_pipeline.png
-#     alt: "From a 3D mesh avatar and segmented wound, Syn3DWound allows to generate a synthetic dataset for 3D wound bed analysis."
-#     title: "From a 3D mesh avatar and segmented wound, Syn3DWound allows to generate a synthetic dataset for 3D wound bed analysis."
-# gallery_airplane:
-#   - url: /assets/images/avion_mongenet.png
-#     image_path: /assets/images/avion_mongenet.png
-#     alt: "MongeNet mesh discretization by a point cloud"
-#     title: "MongeNet mesh discretization by a point cloud"
-#   - url: /assets/images/avion_uniform.png
-#     image_path: /assets/images/avion_uniform.png
-#     alt: "Standard random uniform mesh discretization by a point cloud"
-#     title: "Standard random uniform mesh discretization by a point cloud"
+  - url: /assets/images/sparse_views.png
+    image_path: /assets/images/sparse_views.png
+
 paginate: true 
+
+
 ---
 
-## Wbsite coming soon...
-
-<!-- ## Introduction & Motivation
-<b>Chronic wounds</b> represent a significant <b>health</b> and <b>economic</b> <b>burden</b> worldwide. Effective treatments <b>require</b> wound clinical <b>measurements</b>, typically <b>performed manually</b> by specialized healthcare professionals.
-
-Wound surface area is typically measured by performing <b>planimetry</b> of the wound bed. These procedures are not only <b>invasive</b> and cause patient <b>discomfort</b> but are also prone to errors due to <b>ambiguous</b> definitions of metrics and variations in professionals’ skill levels.
-<!-- Put image -->
-
-<!-- Most <b>existing</b> automatic commercial <b>approaches</b> compute wound measurements solely from <b>2D images</b>, which are perspective-dependent. -->
-<!-- put image -->
-<!-- {% include gallery id="gallery_2v3d" caption="Area measurement multi-view inconsistent if rely only on 2D." %}
-
-<b>3D analysis</b> of wounds allows for the computation of <b>richer wound biomarkers</b>. However, studies in this direction only considered previous generation 3D reconstruction frameworks, which have recently been surpassed by highly optimized photogrammetric toolboxes and recent neural rendering alternatives, we are talking about <b>NeRF</b> and <b>Gaussian Splatting</b>! -->
-<!-- put image? -->
-
-<!-- <b>We introduce</b> a new dataset <b>SALVE</b>, designed to capture common challenges encountered in clinical settings.
-It is composed of <b>3</b> silicon phantoms provided by [TraumaSIM](https://traumasim.com.au/) representing <b>common wound types</b>.
-We captured videos using <b>2 devices</b> with different image quality and resolution.
-To capture 3D <b>ground-truth pointclouds</b> we used the Revopoint POP 3D scanner. -->
-<!-- put image -->
-<!-- {% include gallery id="gallery_acquisition" caption="Acquisition setup." %}
-
-## Evaluation
-<b>We evaluate</b> robust <b>photogrammetry pipelines</b> such as COLMAP and Meshroom and <b>modern neural rendering approaches for 3D reconstruction</b> such as <b>NeRF</b> and <b>Gaussian Splatting</b>.  -->
-<!-- put image -->
-
-<!-- We follow a <b>rigorous evaluation protocol</b> that defines metrics and procedures to assess the <b>geometric accuracy and precision</b> of the evaluated reconstruction algorithms. -->
-<!-- put image -->
-<!-- {% include gallery id="gallery_accuracy" caption="Meshroom, Neuralangelo, and Neus-facto consistently outperform other
-methods across various metrics, wound types, and recording devices. Neuralangelo and Neus-facto demonstrate advantages over Meshroom.
-Neus-facto reports the best performance in the inter-device evaluation, showing the
-most consistent reconstructions." %}
-
-{% include gallery id="gallery_qualitative1" caption="Photogrammetric pipelines often estimate noisy surfaces, due to challenges in stereo matching.
-Similarly, Gaussian splatting approaches encounter difficulties due to the Gaussians’
-initialization based on the SfM pointcloud." %}
-{% include gallery id="gallery_qualitative2" caption="Notablty, Neuralangelo reconstruction’s quality drastically decreases in lower device
-quality." %} -->
 
 
-<!-- Page under developmet! -->
+## Motivation
+
+Chronic wound care remains a major healthcare challenge, requiring regular assessments that are costly and often delayed.  
+Most existing automated wound segmentation methods operate in **2D**, leading to inconsistent results across viewpoints and inaccurate 3D measurements.  
+
+{% include gallery id="gallery_2v3d" caption="2D annotation inconsistencies observed when projected onto the same 3D surface. Overlapping regions are highlighted in magenta." width="80%" %}
+
+**WoundNeRF** addresses this by learning a **3D‑consistent wound segmentation field** directly from multi‑view images.
+
+---
+
+## Approach
+
+Building on advances in Neural Radiance Fields (NeRFs), **WoundNeRF** jointly models wound **appearance, geometry, and semantics** in a unified 3D space.
+
+- Aggregates automatically generated 2D segmentations into a 3D semantic field  
+- Enforces **multi‑view consistency** without requiring dense manual labeling  
+- Focuses on accurate 3D reconstruction of wound regions rather than hallucination or blending
+
+{% include gallery id="gallery_method" caption="WoundNeRF architecture and training pipeline." %}
+
+---
+
+## Results
+
+We evaluate WoundNeRF on a **real patient dataset** collected with clinical collaborators.
+
+**Baselines:**
+- **2D:** SegFormer MiT‑B5 trained on single‑view annotations  
+- **3D/2D:** Multi‑view aggregation following *Wound3DAssist*  
+
+**Our model** produces smoother boundaries, higher recall, and stronger multi‑view coherence.
+
+{% include gallery id="gallery_accuracy" caption="Accuracy comparison across 73 patient videos." width="80%" %}
+
+{% include gallery id="gallery_qualitative1" caption="Qualitative comparison of wound and tissue segmentations. Tissues classes: wound
+bed (1), granulation (2), necrotic (3), slough (4), and unknown (5)." width="80%" %}
+
+Even with limited expert annotations (2–4 views), **WoundNeRF** maintains consistent predictions across **50 unseen viewpoints**, dramatically reducing inter‑view variation and noise.
+
+{% include gallery id="gallery_qualitative2" caption="Prediction consistency: 2D model (left) vs WoundNeRF (right). The bottom row displays the corresponding wound segmentation on the 3D mesh extracted from our method." width="80%" %}
+
+---
+
+## Robustness
+
+When training masks are intentionally perturbed, WoundNeRF remains stable, highlighting strong resistance to noisy supervision.
+
+{% include gallery id="gallery_robustness" caption="Robustness under boundary perturbations." width="65%" %}
+
+---
+
+## Conclusion
+
+We present **WoundNeRF**, a method for generating **multi‑view consistent wound segmentations**.  
+By learning directly in 3D space, it overcomes the topological limitations of 2D segmentation and enables coherent wound reconstruction for clinical use.  
+
+Future work will explore **confidence‑driven segmentation** to reduce misclassified regions and enhance semantic reliability for real‑world healthcare deployment.
+
+---
+
+<b>If you find this work useful, please cite:</b>
+
+<div class="highlight highlight-source-bibtex">
+  <pre><code class="language-bibtex" data-lang="bibtex">@misc{chierchia2026multiviewconsistentwoundsegmentation,
+      title={Multi-View Consistent Wound Segmentation With Neural Fields}, 
+      author={Remi Chierchia and Léo Lebrat and David Ahmedt-Aristizabal and Yulia Arzhaeva and Olivier Salvado and Clinton Fookes and Rodrigo Santa Cruz},
+      year={2026},
+      eprint={2601.16487},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.16487}
+}</code></pre>
+  
+  <div class="highlight-overlay">
+    <button class="btn-clipboard" type="button">Copy</button>
+  </div>
+</div>
+
+<script>
+document.querySelectorAll('.btn-clipboard').forEach(button => {
+  button.addEventListener('click', function() {
+    const code = this.closest('.highlight').querySelector('code').innerText.trim();
+    navigator.clipboard.writeText(code).then(() => {
+      const original = this.innerText;
+      this.innerText = 'Copied!';
+      this.style.color = '#1a7f37';
+      setTimeout(() => {
+        this.innerText = original;
+        this.style.color = '';
+      }, 2000);
+    });
+  });
+});
+</script>
 
 
-
-
-
-
-<!-- commented below> -->
-
-<!-- <br/> -->
-
-<!-- <b>If you find this work useful, please cite</b> -->
 <!-- ```
+@misc{chierchia2026multiviewconsistentwoundsegmentation,
+      title={Multi-View Consistent Wound Segmentation With Neural Fields}, 
+      author={Remi Chierchia and Léo Lebrat and David Ahmedt-Aristizabal and Yulia Arzhaeva and Olivier Salvado and Clinton Fookes and Rodrigo Santa Cruz},
+      year={2026},
+      eprint={2601.16487},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.16487}, 
+}
+``` -->
+<!-- 
+```
 @InProceedings{Chierchia_2025_WACV,
     author    = {Chierchia, Remi and Lebrat, Leo and Ahmedt-Aristizabal, David and Salvado, Olivier and Fookes, Clinton and Cruz, Rodrigo Santa},
     title     = {Multi-View Consistent Wound Segmentation With Neural Fields},
@@ -107,7 +158,8 @@ quality." %} -->
     year      = {2025},
     pages     = {4205-4214}
 }
-``` -->
+```
+-->
 
 
 ## Acknowledgment 

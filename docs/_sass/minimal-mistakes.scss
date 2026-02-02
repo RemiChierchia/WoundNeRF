@@ -38,3 +38,47 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+.highlight {
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid #e1e4e8;
+  background: #f6f8fa;
+  margin: 1rem 0;
+}
+
+.highlight pre {
+  background: transparent;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 0;
+  overflow: auto;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.highlight-overlay {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+}
+
+.btn-clipboard {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #586069;
+  background-color: transparent;
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-clipboard:hover {
+  color: #1a7f37;
+  background-color: #f3f4f6;
+  border-color: rgba(27, 31, 35, 0.4);
+}
