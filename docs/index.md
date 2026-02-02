@@ -2,6 +2,7 @@
 layout: single
 author_profile: True
 classes: wide
+title: "WoundNeRF: Multi-View Consistent Wound Segmentation With Neural Fields"
 excerpt: "ISBI 2026"
 header:
   overlay_image: /assets/images/data_augmentation.png
