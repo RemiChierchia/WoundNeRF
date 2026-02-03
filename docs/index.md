@@ -50,7 +50,7 @@ Most existing automated wound segmentation methods operate in **2D**, leading to
 
 **WoundNeRF** addresses this by learning a **3D‑consistent wound segmentation field** directly from multi‑view images.
 
----
+
 
 ## Approach
 
@@ -62,7 +62,7 @@ Building on advances in Neural Radiance Fields (NeRFs), **WoundNeRF** jointly mo
 
 {% include gallery id="gallery_method" caption="WoundNeRF architecture and training pipeline." %}
 
----
+
 
 ## Results
 
@@ -83,7 +83,7 @@ Even with limited expert annotations (2–4 views), **WoundNeRF** maintains cons
 
 {% include gallery id="gallery_qualitative2" caption="Prediction consistency: 2D model (left) vs WoundNeRF (right). The bottom row displays the corresponding wound segmentation on the 3D mesh extracted from our method." width="80%" %}
 
----
+
 
 ## Robustness
 
@@ -91,7 +91,7 @@ When training masks are intentionally perturbed, WoundNeRF remains stable, highl
 
 {% include gallery id="gallery_robustness" caption="Robustness under boundary perturbations." width="65%" %}
 
----
+
 
 ## Conclusion
 
@@ -100,9 +100,9 @@ By learning directly in 3D space, it overcomes the topological limitations of 2D
 
 Future work will explore **confidence‑driven segmentation** to reduce misclassified regions and enhance semantic reliability for real‑world healthcare deployment.
 
----
 
-<b>If you find this work useful, please cite:</b>
+
+## If you find this work useful, please cite:
 
 <div class="highlight highlight-source-bibtex">
   <pre><code class="language-bibtex" data-lang="bibtex">@misc{chierchia2026multiviewconsistentwoundsegmentation,
@@ -136,6 +136,40 @@ document.querySelectorAll('.btn-clipboard').forEach(button => {
   });
 });
 </script>
+
+<!-- <b>If interested, check our previous pubblications</b>
+- Syn3DWound {project page}{https://lebrat.github.io/Syn3DWound/} {paper}{https://arxiv.org/abs/2311.15836}
+- SALVE {project page}{https://remichierchia.github.io/SALVE/} {paper}{https://ieeexplore.ieee.org/abstract/document/10943648}
+- Wound3DAssist {paper}{https://arxiv.org/abs/2508.17635}
+- NON-INVASIVE 3D WOUND MEASUREMENT WITH RGB-D IMAGING [paper]{https://arxiv.org/pdf/2601.19014} -->
+
+## Related Works
+
+**If interested, check our previous publications:**
+
+<div class="feature__wrap">
+  <ul class="feature__list">
+    <li>
+      <strong>Syn3DWound</strong><br>
+      <a href="https://lebrat.github.io/Syn3DWound/">Project Page</a> • 
+      <a href="https://arxiv.org/abs/2311.15836">Paper (arXiv)</a>
+    </li>
+    <li>
+      <strong>SALVE</strong><br>
+      <a href="https://remichierchia.github.io/SALVE/">Project Page</a> • 
+      <a href="https://ieeexplore.ieee.org/abstract/document/10943648">Paper (IEEE)</a>
+    </li>
+    <li>
+      <strong>Wound3DAssist</strong><br>
+      <a href="https://arxiv.org/abs/2508.17635">Paper (arXiv)</a>
+    </li>
+    <li>
+      <strong>Non-Invasive 3D Wound Measurement with RGB-D Imaging</strong><br>
+      <a href="https://arxiv.org/pdf/2601.19014">Paper (arXiv)</a>
+    </li>
+  </ul>
+</div>
+
 
 
 <!-- ```
