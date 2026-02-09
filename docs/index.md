@@ -105,7 +105,7 @@ Future work will explore **confidence‑driven segmentation** to reduce misclass
 ## If you find this work useful, please cite:
 
 <div class="highlight highlight-source-bibtex">
-  <pre><code class="language-bibtex" data-lang="bibtex">@misc{chierchia2026multiviewconsistentwoundsegmentation,
+  <pre><code class="language-bibtex" data-lang="bibtex">@misc{chierchia2026woundnerf,
       title={Multi-View Consistent Wound Segmentation With Neural Fields}, 
       author={Remi Chierchia and Léo Lebrat and David Ahmedt-Aristizabal and Yulia Arzhaeva and Olivier Salvado and Clinton Fookes and Rodrigo Santa Cruz},
       year={2026},
@@ -152,12 +152,14 @@ document.querySelectorAll('.btn-clipboard').forEach(button => {
     <li>
       <strong>Syn3DWound</strong><br>
       <a href="https://lebrat.github.io/Syn3DWound/">Project Page</a> • 
-      <a href="https://arxiv.org/abs/2311.15836">Paper (arXiv)</a>
+      <a href="https://arxiv.org/abs/2311.15836">Paper (arXiv)</a> •
+      <a href="https://doi.org/10.25919/5rwz-ts17">Dataset</a>
     </li>
     <li>
       <strong>SALVE</strong><br>
       <a href="https://remichierchia.github.io/SALVE/">Project Page</a> • 
-      <a href="https://ieeexplore.ieee.org/abstract/document/10943648">Paper (IEEE)</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10943648">Paper (IEEE)</a> •
+      <a href="https://doi.org/10.25919/h3mg-xh67">Dataset</a>
     </li>
     <li>
       <strong>Wound3DAssist</strong><br>
